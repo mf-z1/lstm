@@ -8,9 +8,7 @@ jieba.load_userdict('.././dictionary/机构_学校.lex')
 
 # 定义一个tokenizer
 def chi_tokenizer(sentence):
-    # for word in jieba.cut(sentence):
-    #     print(word)
-    # print([word for word in jieba.cut(sentence)])
+
     return [word for word in jieba.cut(sentence)]
 
 
