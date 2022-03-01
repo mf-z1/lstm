@@ -4,18 +4,20 @@
 
 ## 项目的整体结构
 
-```
-├── api.py             用于预测的api程序
-├── data               原始数据
-├── datasets.py        数据格式转换
-├── dictionary         用户自定义词典
-├── vocab              词向量
-├── test.py            模型在测试集上测试效果
-├── main.py            主程序
-├── model              文本模型
-├── models_storage     模型保存目录
-├── train.py           训练相关函数
-└── utils.py           工具函数
+```                
+├── data                   原始数据
+├── dictionary             用户自定义词典
+├── vocab                  词向量
+└── refactor               函数体
+    ├── templates          api输入界面
+    ├── datasets.py        数据格式转换
+    ├── test.py            模型在测试集上测试效果
+    ├── main.py            主程序
+    ├── model.py           文本模型
+    ├── models_storage     模型保存目录
+    ├── train.py           训练相关函数
+    ├── api.py             用于预测的api程序
+    └── utils.py           工具函数
 ```
 
 ### 训练模型
