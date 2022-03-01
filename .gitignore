@@ -18,3 +18,4 @@ bin-release/
 # information for Eclipse / Flash Builder.
 refactor/.vector_cache/cc.zh.300.vec.pt
 refactor/models_storage/model_lstm.pt
+vocab/cc.zh.300.vec
