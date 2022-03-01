@@ -20,7 +20,6 @@ sparse=False, – 若为True,则与权重矩阵相关的梯度转变为稀疏张
 _weight=None)
 输出：
 [规整后的句子长度，样本个数（batch_size）,词向量维度]
-
 """
 
 
