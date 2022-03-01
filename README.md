@@ -28,8 +28,8 @@
 从网上下载预训练好的词向量， 比如FastText词向量, 你可从[该处](https://fasttext.cc/docs/en/crawl-vectors.html)
 下载一个300维的中文词向量， 然后将解压出来的txt词向量文本文件放在vocab/目录下（在配置文件标明相应的词向量地址）
 
-（3）运行
-
+（3）运行  
+  python main.py
 ### api调用
 
 api调用结果图(figs/input.png show.png)
