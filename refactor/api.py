@@ -18,7 +18,7 @@ net.load_state_dict(torch.load(load_model_dir))
 
 @app.route('/')
 def index():
-    index_html = './templates/index.html'
+    index_html = 'index.html'
     return render_template(index_html)
 
 
