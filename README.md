@@ -8,7 +8,7 @@
 ├── data                   原始数据
 ├── dictionary             用户自定义词典
 ├── vocab                  词向量
-└── refactor               函数体
+└── func                   函数体
     ├── templates          api输入界面
     ├── datasets.py        数据格式转换
     ├── test.py            模型在测试集上测试效果
