@@ -16,6 +16,6 @@ bin-release/
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
 
-refactor/.vector_cache/cc.zh.300.vec.pt
-refactor/models_storage/model_lstm.pt
+func/.vector_cache/cc.zh.300.vec.pt
+func/models_storage/model_lstm.pt
 vocab/cc.zh.300.vec
